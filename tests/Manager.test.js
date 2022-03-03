@@ -12,7 +12,7 @@ test('retrieves manager office number value', () => {
     expect(manager.getOfficeNumber()).toEqual(expect.stringContaining(manager.officeNumber.toString()))
 });
 
-test('retrieves manager role for employee', () => {
+test('retrieves manager role', () => {
     const manager = new Manager('Andy', 22, 'andyan7@gmail.com', '2534250012');
 
     expect(manager.getRole()).toEqual('Manager');
