@@ -3,7 +3,7 @@ const initializeEng = function(engineer) {
 <div class="card mx-auto shadow-lg m-3" style="width: 18rem;">
     <div class="card-body bg-secondary bg-gradient bg-opacity-75 text-primary">
         <h4 class="card-title fs-4 fw-bold">${engineer.name}</h4>
-        <h6 class="card-title fs-6 fw-bold">Manager</h6>
+        <h6 class="card-title fs-6 fw-bold">Engineer</h6>
     </div>
     <ul class="list-group list-group-flush">
         <li class="list-group-item"><strong>ID:</strong> ${engineer.id} </li>
