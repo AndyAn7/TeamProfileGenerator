@@ -202,5 +202,3 @@ queryMgr()
     .catch(err => {
         console.log(err);
     });
-
-    
