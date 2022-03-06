@@ -101,7 +101,7 @@ const pageTemp = function(empCards) {
         </nav>
     
         <div class="container d-flex">
-            <div class="row justify-content-space-between mt-3">${empCards}</div>
+            <div class="row justify-content-center mt-3">${empCards}</div>
         </div>
     
         <script src="index.js"></script>
