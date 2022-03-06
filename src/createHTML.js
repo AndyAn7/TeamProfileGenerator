@@ -1,7 +1,7 @@
 // engineer data card
 const initializeEng = function(engineer) {
     return `
-<div class="card mx-auto shadow-lg m-3" style="width: 18rem;">
+<div class="card shadow-lg m-3" style="width: 18rem;">
     <div class="card-body bg-secondary bg-gradient bg-opacity-75 text-primary">
         <h4 class="card-title fs-4 fw-bold">${engineer.name}</h4>
         <h6 class="card-title fs-6 fw-bold">Engineer</h6>
@@ -18,7 +18,7 @@ const initializeEng = function(engineer) {
 // manager data card
 const initializeMgr = function(manager) {
     return `
-<div class="card mx-auto shadow-lg m-3" style="width: 18rem;">
+<div class="card shadow-lg m-3" style="width: 18rem;">
     <div class="card-body bg-secondary bg-gradient bg-opacity-75 text-primary">
         <h4 class="card-title fs-4 fw-bold">${manager.name}</h4>
         <h6 class="card-title fs-6 fw-bold">Manager</h6>
@@ -35,7 +35,7 @@ const initializeMgr = function(manager) {
 // intern data card
 const initializeIntrn = function(intern) {
     return `
-<div class="card mx-auto shadow-lg m-3" style="width: 18rem;">
+<div class="card shadow-lg m-3" style="width: 18rem;">
     <div class="card-body bg-secondary bg-gradient bg-opacity-75 text-primary">
         <h4 class="card-title fs-4 fw-bold">${intern.name}</h4>
         <h6 class="card-title fs-6 fw-bold">Intern</h6>
@@ -101,7 +101,7 @@ const pageTemp = function(empCards) {
         </nav>
     
         <div class="container d-flex">
-            <div class="row justify-content-center mt-3">${empCards}</div>
+            <div class="row justify-content-center m-3">${empCards}</div>
         </div>
     
         <script src="index.js"></script>
