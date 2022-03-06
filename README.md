@@ -23,7 +23,7 @@ A generator that queries and then creates a list of employees with pertinent inf
 
 ## [UI/Video Tutorial of Application](#tutorial)
 <a name="tutorial"></a>
-[![Tutorial](urloflocationinrepo)](urlofvideo)
+[![Tutorial]()](https://youtu.be/1VqwxZb1t_E)
 
 ## [User Story](#user)
 <a name="user"></a>
