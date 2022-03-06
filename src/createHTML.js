@@ -92,7 +92,7 @@ const pageTemp = function(empCards) {
     <body>
         <nav class="navbar navbar-light bg-primary bg-gradient py-5">
             <div class="container-fluid">
-                <a class="navbar-brand mx-auto text-white h1 fs-1" href="#">Team Profiler</a>
+                <a class="navbar-brand mx-auto text-white h1 fs-1" href="#">Employee Pool</a>
             </div>
         </nav>
     
