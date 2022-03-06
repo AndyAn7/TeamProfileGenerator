@@ -1,3 +1,4 @@
+// Globals
 const inquirer = require('inquirer');
 const fs = require('fs');
 const Intern = require('./lib/intern');
@@ -5,8 +6,10 @@ const Manager = require('./lib/manager');
 const Engineer = require('./lib/engineer');
 const initializeHTML = require('./src/createHTML');
 
+// array of employee pool
 const empArray = [];
 
+// manager input
 const queryMgr = () => {
     console.log(
         `
@@ -64,7 +67,7 @@ const queryMgr = () => {
                     return true;
                 }}},
     ])
-
+    // utilize data and add to array
     .then(mgrInfo => {
         const {name, id, email, officeNumber} = mgrInfo;
         const mgr = new Manager(name, id, email, officeNumber);
@@ -74,6 +77,7 @@ const queryMgr = () => {
     })
 };
 
+// employee input
 const queryEmp = () => {
     console.log(
         `
@@ -157,6 +161,7 @@ const queryEmp = () => {
         }
     ])
 
+    // utilize data and add to array then request additional indexes to add to array
     .then(empInfo => {
 
 
@@ -181,20 +186,20 @@ const queryEmp = () => {
         }
     })
 
+    // append data to HTML
     .then((responses) => {
-
+ if(responses){
         const tempPage = initializeHTML(responses);
 
         const path = './dist/index.html'
-
 
         if(fs.existsSync(path)) {
             fs.unlinkSync(path)
         }
 
-
         fs.appendFile('./dist/index.html', tempPage, (err) => err ? console.error(err) : console.log('log entered'))
-    });
+    }});
+
 };
 
 queryMgr()

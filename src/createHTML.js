@@ -1,3 +1,4 @@
+// engineer data card
 const initializeEng = function(engineer) {
     return `
 <div class="card mx-auto shadow-lg m-3" style="width: 18rem;">
@@ -14,6 +15,7 @@ const initializeEng = function(engineer) {
 `;
 };
 
+// manager data card
 const initializeMgr = function(manager) {
     return `
 <div class="card mx-auto shadow-lg m-3" style="width: 18rem;">
@@ -30,6 +32,7 @@ const initializeMgr = function(manager) {
 `
 };
 
+// intern data card
 const initializeIntrn = function(intern) {
     return `
 <div class="card mx-auto shadow-lg m-3" style="width: 18rem;">
@@ -46,6 +49,7 @@ const initializeIntrn = function(intern) {
 `
 };
 
+// loop through provided indexes and apply them to cards
 const initializeHTML = (data) => {
 
     let empArray = [];
