@@ -7,6 +7,8 @@
 ## Table Of Contents
 - [Description](#description)
 
+- [Code](#code)
+
 - [Tutorial](#tutorial)
 
 - [User Story](#user)
@@ -18,6 +20,10 @@
 ## [Description](#description)
 <a name="description"></a>
 A generator that queries and then creates a list of employees with pertinent information to be displayed as relates to the user input.
+
+## [Code](#code)
+<a name="code"></a>
+HTML Bootstrap Javascript Node Inquirer Jest
 
 ![image](https://github.com/AndyAn7/TeamProfileGenerator/blob/main/images/SS.png?raw=true)
 
