@@ -198,7 +198,9 @@ const queryEmp = () => {
 };
 
 queryMgr()
-    .then(queryEmp).catch(err => {console.log(err);
+    .then(queryEmp)
+    .catch(err => {
+        console.log(err);
     });
 
     
