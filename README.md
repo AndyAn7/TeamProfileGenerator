@@ -23,7 +23,7 @@ A generator that queries and then creates a list of employees with pertinent inf
 
 ## [Code](#code)
 <a name="code"></a>
-HTML Bootstrap Javascript Node Inquirer Jest
+HTML+Bootstrap+Javascript+Node+Inquirer+Jest
 
 ![image](https://github.com/AndyAn7/TeamProfileGenerator/blob/main/images/SS.png?raw=true)
 
