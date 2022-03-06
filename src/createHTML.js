@@ -1,6 +1,5 @@
 const initializeEng = function(engineer) {
-    return
-`
+    return `
 <div class="card mx-auto shadow-lg m-3" style="width: 18rem;">
     <div class="card-body bg-secondary bg-gradient bg-opacity-75 text-primary">
         <h4 class="card-title fs-4 fw-bold">${engineer.name}</h4>
@@ -12,12 +11,11 @@ const initializeEng = function(engineer) {
         <li class="list-group-item"><strong>GitHub: </strong> <a href="https://github.com/${engineer.github}">${engineer.github}</a></li>
     </ul>
 </div>
-`
+`;
 };
 
 const initializeMgr = function(manager) {
-    return
-`
+    return `
 <div class="card mx-auto shadow-lg m-3" style="width: 18rem;">
     <div class="card-body bg-secondary bg-gradient bg-opacity-75 text-primary">
         <h4 class="card-title fs-4 fw-bold">${manager.name}</h4>
@@ -26,36 +24,38 @@ const initializeMgr = function(manager) {
     <ul class="list-group list-group-flush">
         <li class="list-group-item"><strong>ID:</strong> ${manager.id} </li>
         <li class="list-group-item"><strong>Email:</strong> <a href="mailto:${manager.email}">${manager.email}</a></li>
-        li class="list-group-item"><strong>Office Number:</strong> ${manager.officeNum} </li>
+        <li class="list-group-item"><strong>Office Number:</strong> ${manager.officeNumber} </li>
     </ul>
 </div>
 `
 };
 
 const initializeIntrn = function(intern) {
-    return
-`
+    return `
 <div class="card mx-auto shadow-lg m-3" style="width: 18rem;">
     <div class="card-body bg-secondary bg-gradient bg-opacity-75 text-primary">
         <h4 class="card-title fs-4 fw-bold">${intern.name}</h4>
-        <h6 class="card-title fs-6 fw-bold">Manager</h6>
+        <h6 class="card-title fs-6 fw-bold">Intern</h6>
     </div>
     <ul class="list-group list-group-flush">
         <li class="list-group-item"><strong>ID:</strong> ${intern.id} </li>
         <li class="list-group-item"><strong>Email:</strong> <a href="mailto:${intern.email}">${intern.email}</a></li>
-        <li class="list-group-item"><strong>Office Number:</strong> ${intern.school} </li>
+        <li class="list-group-item"><strong>School:</strong> ${intern.school} </li>
     </ul>
 </div>
 `
 };
 
-initializeHTML = (data) => {
+const initializeHTML = (data) => {
 
-    empArray = [];
+    let empArray = [];
 
     for(let i = 0; i < data.length; i++) {
         const employee = data[i];
+
+
         const role = employee.getRole();
+
 
         if(role === 'Engineer') {
             const engCard = initializeEng(employee);
@@ -79,8 +79,7 @@ initializeHTML = (data) => {
 };
 
 const pageTemp = function(empCards) {
-    return
-`
+    return     `
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -93,7 +92,7 @@ const pageTemp = function(empCards) {
     <body>
         <nav class="navbar navbar-light bg-primary bg-gradient py-5">
             <div class="container-fluid">
-                <a class="navbar-brand mx-auto text-primary h1 fs-1" href="#">Team Profiler</a>
+                <a class="navbar-brand mx-auto text-white h1 fs-1" href="#">Team Profiler</a>
             </div>
         </nav>
     
