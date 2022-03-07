@@ -25,6 +25,8 @@ A generator that queries and then creates a list of employees with pertinent inf
 <a name="code"></a>
 HTML+Bootstrap+Javascript+Node+Inquirer+Jest
 
+## [MockUp](#mockup)
+<a name="mockup"></a>
 ![image](https://github.com/AndyAn7/TeamProfileGenerator/blob/main/images/SS.png?raw=true)
 
 ## [UI/Video Tutorial of Application](#tutorial)
