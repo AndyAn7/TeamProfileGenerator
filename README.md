@@ -9,6 +9,8 @@
 
 - [Code](#code)
 
+- [Mockup](#mockup)
+
 - [Tutorial](#tutorial)
 
 - [User Story](#user)
