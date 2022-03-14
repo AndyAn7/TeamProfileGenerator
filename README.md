@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
 
 [GitHub Repo](https://github.com/AndyAn7/TeamProfileGenerator)
-# README-Generator
+
 ## Table Of Contents
 - [Description](#description)
 
